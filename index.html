@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="main_body">
+    <div class="main_box">
+        <div class="main_left">
+            <div class="left_signin">
+                <h2>Sign in</h2>
+                <p>Email</p>
+                <input>
+                <p style="margin-bottom:5px;">Password</p>
+
+
+                <div class="password_div" style="background-color:#F2F2F2;" >
+                    <input type="password" id="password">
+                    <div onclick="reveal1()" id="changeAnimation1"></div>
+                </div>
+
+
+                <p style="margin-bottom: 5px;">Confirm Password</p>
+
+
+                <div class="password_div" style="background-color:#F2F2F2" >
+                    <input type="password" id="confirm_password">
+                    <div onclick="reveal2()" id="changeAnimation2"></div>
+                </div>
+                <br>
+                <button class="sign_in_button" onclick="go()">
+                    Sign in
+                </button>
+            </div>
+        </div>
+        <div class="main_right"></div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

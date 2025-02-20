@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main_body{
+    display: grid;
+    height: 100vh;
+    background: linear-gradient(to bottom,#1E90FF 50%,#C5D4FD 50%);
+    background-color: #1E90FF;
+    place-items: center;
+}
+.main_box{
+    width: 65%;
+    height: 600px;
+    border-radius: 40px;
+    display: flex;
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.3);
+}
+.main_left{
+    border-radius: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: white;
+    flex:0.6;
+    place-items: center;
+}
+.left_signin{
+width: 70%;
+height: 400px;
+display: flex;
+margin: 50px;
+margin-top: 90px;
+display: block;
+}
+.left_signin h2{
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 40%;
+}
+.left_signin input{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #F2F2F2;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.3);
+}
+.sign_in_button{
+width: 102%;
+height: 50px;
+border: none;
+background-color: #1E90FF;
+color: white;
+margin-top: 30px;
+border-radius: 5px;
+}
+.sign_in_button:hover{
+    cursor: pointer;
+}
+.main_right{
+    background-color: green;
+    border-radius: 40px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    flex: 0.5;
+    background-image: url(ad.avif);
+    background-position: center;
+}
+.password_div{
+    height: 50px;
+    width: 102%;
+    margin-bottom: 20px;
+    border-width: 0px;
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.3);
+    display: flex;
+}
+.password_div input{
+    width: 83%;
+    margin-right: 0px;
+    box-shadow: none;
+    flex:0.9;
+    margin-top: 0px;
+}
+.password_div div{
+width: 20px;
+height: 13px;
+flex:0.15;
+background-image: url(eye_close.png);
+background-position: center  ;
+background-repeat: no-repeat;
+margin-top:15px;
+border-color: white;
+animation: none;
+border-radius: 60px;
+}
+.password_div div:hover{
+    cursor: pointer;
+}
