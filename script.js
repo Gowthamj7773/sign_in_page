@@ -30,7 +30,7 @@ function go()
     var password = document.getElementById("password")
     var confirm_password = document.getElementById("confirm_password")
     var email = document.getElementById("email")
-    if(password.value=="" || confirm_password.value=="" || password.value=="")
+    if(password.value.trim()==="" || confirm_password.value.trim()==="" || password.value.trim()==="")
     {alert("Please fill all boxes")}
 
     else{
